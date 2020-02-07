@@ -1,0 +1,36 @@
+body {
+	background-color: #ccf5f5;
+}
+#box {
+	height: 525px;
+  	width: 360px;
+  	margin: 100px auto;
+	background: #f7f7f7;
+ 	box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+ 	border-radius: 20px;
+ 	-webkit-border-radius: 20px;
+ 	-moz-border-radius: 20px;
+ 	text-align: center;
+ 
+}
+
+.dollarSign {
+	display: inline;
+}
+
+#totalTip:before {
+	content: "Tip Amount";
+	font-size: 20px;
+	font-weight: bold;
+	display: block;
+	text-transform: uppercase;
+}
+
+#totaltip sup {
+	font-size: 20px;
+	top:-18px;
+}
+#totalTip small {
+	font-size: 20px;
+	display: block;
+}
